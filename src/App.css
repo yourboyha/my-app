@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #bbbbbb;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.My-header{
+  background-color: aquamarine;
+  font-family: Kanit, Sarabun, Thonburi, Tahoma, sans-serif;
+  text-align: center;
+}
+
+.My-content{
+  font-family: Kanit, Sarabun, Thonburi, Tahoma, sans-serif;
+  text-align: center;
+  background-color: white;
+  font-size:  larger;
+  padding: 2em;
+  margin-bottom: 1em;
+  border-radius: 15px;
+  border: 2px solid;
 }
